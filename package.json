@@ -6,7 +6,7 @@
     "build": "refmterr dune build -p #{self.name}"
   },
   "dependencies": {
-    "ocaml": "4.7.1",
+    "ocaml": "~4.6.0",
     "refmterr": "*",
     "@esy-ocaml/reason": "*",
     "@opam/dune": "*",
@@ -19,6 +19,6 @@
   },
   "devDependencies": {
     "@esy-ocaml/merlin": "*",
-    "ocaml": "4.7.1"
+    "ocaml": "~4.6.0"
   }
 }
