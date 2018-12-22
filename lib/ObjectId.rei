@@ -6,10 +6,11 @@ type t;
 
 /* Creates an ObjectID from a binary string containing the raw ObjectID bytes */
 let fromBinaryString: string => t;
-
 /* Returns a binary string containing the raw ObjectID bytes */
 let toBinaryString: t => string;
 
+/* Creates ObjectID from showable hexadecimal string */
+let fromString: string => t;
 /* Returns a string representation of ObjectID bytes as hexadecimal */
 let toString: t => string;
 

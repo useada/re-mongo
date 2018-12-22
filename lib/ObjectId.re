@@ -15,9 +15,9 @@ let fromBinaryString = id =>
   } else {
     id;
   };
-
 let toBinaryString = id => id;
 
+let fromString = hexStr => Hex.to_string(Hex.(`Hex(hexStr)));
 let toString = id => Hex.show(Hex.of_string(id));
 
 let generate = () => {
